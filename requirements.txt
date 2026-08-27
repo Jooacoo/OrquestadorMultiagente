@@ -1,0 +1,11 @@
+langgraph>=1.2
+langgraph-checkpoint-sqlite>=2.0
+langchain>=1.0
+langchain-core>=1.6
+langchain-google-genai>=4.3
+pydantic>=2.0
+scikit-learn>=1.4
+
+# Opcional: si tenés TAVILY_API_KEY, se usa búsqueda real en vez de la
+# Vector DB local simulada (ver agents/research_agent.py)
+langchain-community>=0.3

@@ -1,0 +1,8 @@
+venv/
+.venv/
+.env
+__pycache__/
+*.pyc
+*.sqlite
+*.sqlite3
+demo_trace.json
